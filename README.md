@@ -44,7 +44,7 @@ Once the Docker images have all started fully:
 4. In the `Clients` section, create a client with:
    1. The client id as `public`
    2. PKCE method as `S256`
-   3. The valid redirect URI as https://oauth.postman.io/v1/callback
+   3. The valid redirect URI as `http://localhost:3000/*`
 5. In the `Users` section, add any users you may need.
    - Important: Add their password in the `Credentials` tab.
 
