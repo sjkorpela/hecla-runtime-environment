@@ -1,6 +1,13 @@
 # HE/CLA Runtime Environment #
 
-Project description.
+This project consists of three separate repositories:
+- This one, for the runtime environment configuration
+- [hecla-frontend](https://www.github.com/sjkorpela/hecla-frontend), for the frontend
+- [hecla-backend](https://www.github.com/sjkorpela/hecla-backend), for the backend
+
+## Project description ##
+
+HE/CLA is an application for managing familial data.
 
 ## How to run locally ##
 
@@ -11,7 +18,7 @@ Needs:
 
 ### Setting up the backend ###
 
-1. Clone the backend into this repository with command `git clone git@bitbucket.org:MikaJK/hecla-backend.git
+1. Clone the backend into this repository with command `git clone https://www.github.com/sjkorpela/hecla-backend.git
 ` or similar methods.
 2. Navigate into the `hecla-backend` directory.
 3. Run command `./mvnw install` to install dependencies.
@@ -19,7 +26,7 @@ Needs:
 
 ### Setting up the frontend ###
 
-1. Clone the frontend into this repository with command `git clone git@bitbucket.org:MikaJK/hecla-frontend.git
+1. Clone the frontend into this repository with command `git clone https://www.github.com/sjkorpela/hecla-frontend.git
 ` or similar methods.
 2. Navigate into the `hecla-backend` directory.
 3. Run command `npm install` to install dependencies.
